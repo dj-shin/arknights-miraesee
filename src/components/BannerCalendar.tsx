@@ -1,7 +1,7 @@
-import React, {ReactDOM, useState} from "react";
+import React, { useState } from "react";
 import './BannerCalendar.scss';
-import {Banner, banners} from "../hooks/banner";
-import {createPortal} from "react-dom";
+import { Banner, banners } from "../hooks/banner";
+import { createPortal } from "react-dom";
 
 function getDays(month: number, year: number): number {
     return new Date(year, month, 0).getDate();
@@ -44,21 +44,21 @@ const VerticalCalendar: React.FunctionComponent<VerticalCalendarProps> = (props)
                     </ul>
                 </div>
                 <div
-                    className="vertical-calendar__container__column grid-container"
-                    style={{
-                        gridTemplateRows: `repeat(${days}, auto)`
-                    }}
+                    className="vertical-calendar__container__column"
                 >
                     {filteredEvents.map(data => (
                         <div
                             key={data.name}
-                            className="grid-item"
+                            className="event-item"
                             style={{
-                                gridRowStart: data.start.getMonth() === props.month ? data.start.getDate() + 1 : 1,
-                                gridRowEnd: data.end.getMonth() === props.month ? data.end.getDate() + 1 : days + 1,
+                                top: `${(data.start.getTime() - new Date(props.year, props.month, 1).getTime()) / 1000 / 60 / 60 / 24 / days * 100}%`,
+                                height: `${(data.end.getTime() - data.start.getTime()) / 1000 / 60 / 60 / 24 / days * 100}%`,
                             }}
                         >
-                            <img src={data.preview} alt={data.name}/>
+                            <img
+                                src={data.preview}
+                                alt={data.name}
+                            />
                         </div>
                     ))}
                 </div>
