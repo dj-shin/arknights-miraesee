@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/arknights-miraesee/static/css/main.72ab71a9.chunk.css",
+    "main.js": "/arknights-miraesee/static/js/main.93f1730a.chunk.js",
+    "main.js.map": "/arknights-miraesee/static/js/main.93f1730a.chunk.js.map",
+    "runtime-main.js": "/arknights-miraesee/static/js/runtime-main.8d66e77c.js",
+    "runtime-main.js.map": "/arknights-miraesee/static/js/runtime-main.8d66e77c.js.map",
+    "static/js/2.3f7859f7.chunk.js": "/arknights-miraesee/static/js/2.3f7859f7.chunk.js",
+    "static/js/2.3f7859f7.chunk.js.map": "/arknights-miraesee/static/js/2.3f7859f7.chunk.js.map",
+    "static/js/3.ecf6f8e0.chunk.js": "/arknights-miraesee/static/js/3.ecf6f8e0.chunk.js",
+    "static/js/3.ecf6f8e0.chunk.js.map": "/arknights-miraesee/static/js/3.ecf6f8e0.chunk.js.map",
+    "index.html": "/arknights-miraesee/index.html",
+    "static/css/main.72ab71a9.chunk.css.map": "/arknights-miraesee/static/css/main.72ab71a9.chunk.css.map",
+    "static/js/2.3f7859f7.chunk.js.LICENSE.txt": "/arknights-miraesee/static/js/2.3f7859f7.chunk.js.LICENSE.txt",
+    "static/media/1631513187.fcd4b94a.jpg": "/arknights-miraesee/static/media/1631513187.fcd4b94a.jpg",
+    "static/media/1631513198.c562ad53.jpg": "/arknights-miraesee/static/media/1631513198.c562ad53.jpg",
+    "static/media/1631513986.97d49c8f.jpg": "/arknights-miraesee/static/media/1631513986.97d49c8f.jpg",
+    "static/media/1631516490.2dcd23e9.jpg": "/arknights-miraesee/static/media/1631516490.2dcd23e9.jpg",
+    "static/media/1631516509.1f6a9d4c.jpg": "/arknights-miraesee/static/media/1631516509.1f6a9d4c.jpg",
+    "static/media/Headhunting_Permit.0a9c45a4.png": "/arknights-miraesee/static/media/Headhunting_Permit.0a9c45a4.png",
+    "static/media/Orundum.ce30e6a0.png": "/arknights-miraesee/static/media/Orundum.ce30e6a0.png",
+    "static/media/Pure_Originium.882e85e9.png": "/arknights-miraesee/static/media/Pure_Originium.882e85e9.png",
+    "static/media/preview_001.be320ca1.jpg": "/arknights-miraesee/static/media/preview_001.be320ca1.jpg",
+    "static/media/preview_002.b8800fac.jpg": "/arknights-miraesee/static/media/preview_002.b8800fac.jpg",
+    "static/media/preview_003.71e45145.jpg": "/arknights-miraesee/static/media/preview_003.71e45145.jpg",
+    "static/media/preview_004.3c98d327.jpg": "/arknights-miraesee/static/media/preview_004.3c98d327.jpg",
+    "static/media/preview_005.e1ecf17b.jpg": "/arknights-miraesee/static/media/preview_005.e1ecf17b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d66e77c.js",
+    "static/js/2.3f7859f7.chunk.js",
+    "static/css/main.72ab71a9.chunk.css",
+    "static/js/main.93f1730a.chunk.js"
+  ]
+}
