@@ -1,0 +1,50 @@
+#header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 150px;
+}
+
+#title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+  color: white;
+}
+
+#resource {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 30%;
+  display: flex;
+}
+
+.resource-editor {
+  color: white;
+  flex-grow: 1;
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid white;
+  padding: 5px;
+  .container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    img {
+      height: 50px;
+    }
+    .amount {
+      position: absolute;
+      right: 50px;
+      bottom: 0;
+    }
+    button {
+      position: absolute;
+      right: 5px;
+      bottom: 0;
+      border-radius: 10px;
+    }
+  }
+}
