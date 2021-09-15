@@ -1,11 +1,11 @@
 import React, {useState} from "react";
-import permit from '../resources/Headhunting_Permit.png';
-import originium from '../resources/Pure_Originium.png';
-import orundum from '../resources/Orundum.png';
+import permit from '../resources/icons/Headhunting_Permit.png';
+import originium from '../resources/icons/Pure_Originium.png';
+import orundum from '../resources/icons/Orundum.png';
 import './Header.scss';
 
 interface ResourceEditorProps {
-    icon: any;
+    icon: string;
     name: string;
     amount: number;
 }
